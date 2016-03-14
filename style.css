@@ -1,0 +1,95 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	margin:0px;
+	padding:0px;
+	height: 86.8%;
+	width: 100%;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding: 0 10px;
+}
+li{
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+	border-bottom: 2px solid black;
+	border-bottom-left-radius: 5px;
+}
+header{
+	background-color: cadetblue;
+}
+.head{
+	width: 700px;
+	margin: 0 auto;
+}
+.logo{
+	width: 60px;
+	height: 60px;
+	background-image: url(image/logo.jpg);
+	background-size: cover;
+	display: inline-block;
+}
+h1{
+	display: inline-block;
+	margin: 0;
+	font-size: 60px;
+}
+.container{
+	width: 700px;
+	background-color:darkgray;
+	margin: 0 auto;
+	min-height: 90%;
+}
+
+
+.input-text{
+	position: fixed;
+	right: 50px;
+}
+.some-text{
+	resize: vertical;
+	height: 160px;
+}
+.data{
+	display: block;
+	text-align: right;
+	font-size: 10px;
+}
+.dell{
+	float: right;
+	width: 10px;
+	height: 10px;
+	background-color: blue;
+	position: relative;
+	top: -35px;
+}
+.add{
+	display: block;
+	background-color: burlywood;
+	width: 100%;
+	border-radius: 5px;
+}
+footer{
+	background-color: coral;
+	height: 140px;
+}
+.git, .mail{
+	width: 60px;
+	height: 60px;
+	text-decoration: none;
+	background-color: bisque;
+	display: inline-block;
+	text-align: center;
+	line-height: 60px;
+}
+.wrapper{
+	width: 125px;
+	margin: 0 auto;
+
+}
